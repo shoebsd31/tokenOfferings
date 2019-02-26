@@ -1,0 +1,13 @@
+<app-signout></app-signout>
+<p>
+  token-offerings works!
+</p>
+<button (click)="getTokens()">get token offerings</button>
+<div>
+  <ul >
+    <li *ngFor="let token of tokens">
+        <a [routerLink]="['/tokenDetails', token.id]">{{token.title}}</a>
+        <p>subtitle : {{token.subTitle}}</p>
+    </li>
+  </ul>
+</div>

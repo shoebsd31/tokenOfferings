@@ -1,0 +1,10 @@
+<app-signout></app-signout>
+<h1>
+  token-offering-details for {{this.id}}!
+</h1>
+<div *ngIf="tokenDetails">
+  <p>base currency : {{tokenDetails.baseCurrency}}</p>
+  <p>holder name : {{tokenDetails.holderName}}</p>
+  <p>title : {{tokenDetails.title}}</p>
+  <p>sub title : {{tokenDetails.subTitle}}</p>
+</div>
