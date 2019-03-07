@@ -9,7 +9,6 @@ import { TokenOfferingsComponent } from './token-offerings/token-offerings.compo
 import { TokenOfferingDetailsComponent } from './token-offering-details/token-offering-details.component';
 import { AppHttpInterceptorService } from './app-http-interceptor.service';
 import { AuthService } from './auth.service';
-import { RedirectComponent } from './redirect/redirect.component';
 import { TokenofferingService } from './tokenoffering.service';
 import { RefreshTokenService } from './refresh-token.service';
 import { SignoutComponent } from './signout/signout.component';
@@ -20,7 +19,6 @@ import { SignoutComponent } from './signout/signout.component';
     LoginComponent,
     TokenOfferingsComponent,
     TokenOfferingDetailsComponent,
-    RedirectComponent,
     SignoutComponent,
   ],
   imports: [
